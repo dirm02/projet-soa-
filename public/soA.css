@@ -1,0 +1,24 @@
+body {
+    background-image: url('backgr.jpg');
+    background-repeat: repeat;
+
+}
+.partifigure{
+  background-color: white;
+
+}
+.img{
+
+   float: left;
+
+}
+.image1{
+      width: 300px;
+      line-height: 50%;
+      margin: auto;
+
+
+}
+.img2{
+float: right;
+}

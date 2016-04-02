@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> SOA : Presentation Original  </title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="soA.css"
+</head>
+<body>
+<hr>
+<div class = "img">
+   <img src="imageSOA.jpg" alt="SOAfigure"   width : "150" height="150">
+ </div>
+ <div class = "img2">
+   <img src="logoimg.jpg" alt="logo" width="275" height="150">
+ </div>
+<h2><center><pre>
+  Cours : INF1603-01 – Architecture orientée services
+ Session : Hiver 2016
+ Professeur: MOHAMED TALEB
+ Presente Par Mahmoud Alhadji et Dirieh mohamad
+
+</pre></center></h2><br>
+
+<hr>
+<div class = "partie1" >
+
+<h3 style = "color: red"> Plan de la presentation : </h3> <br>
+<pre>
+ <b> <A HREF="#I">Introduction</A><b><br>
+
+ <b><A HREF="#DDCNA"> Definition des différentes couches de la nouvelle Architecture. </A><b> <br>
+
+ <b> <A HREF="#CPNAOS">Couches proposées de la nouvelle architecture orientée service.</A> <b> <br>
+
+ <b><A HREF="#P"> Patterns.</A> <b> <br>
+
+ <b> <A HREF="#SNA">Les services de la nouvelle Architecture.</A><b> <br>
+
+ <b> <A HREF="#FAOS">Figure de l'Architecture Orientèe Service. </A> <b> <br>
+
+ <b> <A HREF="#C">Conclusion.</A><b><br>
+
+ <b> <A HREF="#BR">Bibliographie et Reference.</A><b><br>
+
+ <b> <A HREF="#codeword">Telecharger le fichier en PowerPoint!</A> <b><br>
+
+   </pre>
+   <hr>
+    <A NAME="I">
+   <h3 style = "color : green" > <center><i> I) Introduction <i><center> </h3> <br>
+     <pre>
+“ SOA represents an open, agile, extensible, federated, architecture comprised of autonomous, ….
+Implemented as Web services.
+
+SOA can establish an abstraction of business logic and technology,
+resulting in a loose coupling between these domains.
+
+SOA is an evolution of past platforms, preserving successful characteristics of
+traditional architectures,and bringing with it distinct principles that
+foster services-orientation in supportof a services-oriented enterprise.
+
+SOA is ideally standardized throughout an enterprise,but achieving this state requires a planned transition
+and the support of a still evolving technology set.” (P 54, Service oriented object).
+
+La SOA est apparu en 1996 par Gartner Group.
+
+L’architecture orienté  service décompose des fonctionnalités en un ensemble, ouvert, agile,
+et extensible de fonction basique.
+C'est une logique d’affaire abstrait de Platform qui préserve les caractères traditionnels d’architecture.
+
+Il apporte les principes des services-orienté pour supporter les services-orientés entreprises.
+     </pre>
+     <hr>
+
+       <A NAME="DDCNA">
+      <h3 style = "color : green" > <center> II) Definition des différentes couches de la nouvelle Architecture. <center></h3> <br>
+
+        <pre>
+          Le système d’information d’une entreprise est représenté selon  quatre niveaux d'architecture:
+
+          Couche Métier: Le processus métier décrit l’ensemble des activités que l’entreprise doit éxécuter pour
+
+          traiter un événément  métier qui lui est adressé.
+
+          Couche Service Métier : blocs fonctionnels et flux d’information, support à la réalisation des processus métiers,
+
+          indépendamment des technologies mises en œuvre.
+
+          Couche Application et Logiciels : blocs applicatifs et échanges, support à la réalisation des blocs fonctionnels et des flux.
+
+          Couche Infrastructure Physique : infrastructure sur laquelle sont implémentées et exécutés les blocs fonctionnels.
+        </pre>
+        <hr>
+
+ <A NAME="CPNAOS">
+          <h3 style = "color : green" > <center> III) Couches proposées de la nouvelle architecture orientée service. <center></h3> <br>
+            <pre>
+
+          1.  La couche referenciel métier sera consistuée des  patterns  modéles PIM(Platfome Independent Model)
+
+              et les Platform Specific Models PSM.
+
+          2.  La couche service métier est composé de quatre patterns:
+
+              Génération : utilisée pour générer le code source de l'ensemble du système interactif.
+
+              Transformation: utilisée pour établir les relations entre deux modèles.
+
+              Mapping :  utilisé pour construire un modèle PIM qui devient PSM.
+
+              Composition : utilisée pour combiner différents patterns pour produire un modèle.
+
+          3.  La couche application et logiciel est représentée par les différents platformes de compilation de code(Eclipse, NETBeans…),
+
+              les langages de programmation(JAVA,C+ ….) et les systèmes de gestion de base de données (SGBD, Oracle etc…).
+
+          4.  La couche Infrastructure physique : elle structure les moyens d’infrastructure technique à mettre en œuvre pour
+
+              informatiser l’activité de l’entreprise elle décrit et organise : les différents moyens matériels (serveur, poste client …).
+
+              Elle comporte aussi les Plates-formes matérielles (poste de travail, serveurs départementaux, serveurs d’entreprises, stockage, …).
+            </pre>
+            <hr>
+             <A NAME="P">
+        <h3 style = "color : green" > <center>IV) Patterns. <center> </h3> <br>
+          <pre>
+              “The simplest way to describe a pattern is that it provides a proven solution problem individually documented in a format and usualy
+
+               as part of a large collection” (P 86, SOA Design Patterns).
+
+               Un pattern est une solution d’un probleme recurrent dans un contexte bien précis.
+
+               Un pattern est utile pour renforcer la construction et le design des systèmes.
+          </pre>
+          <hr>
+           <A NAME="SNA">
+          <h3 style = "color : green" > <center>  V)Les services de la nouvelle Architecture. <center> </h3> <br>
+<pre>
+            " Les services sont des entités autonomes indépendantes des plateformes qui peuvent être définies,
+
+              publiées, découvertes, sélectionnées, composées, gérées et programmées à l'aide des objets XML dans le but de développer
+
+              des applications distribuées interopérables". (P 3 , cours Principes de la SOA)
+
+
+
+
+
+
+
+
+</pre>
+<hr>
+ <A NAME="FAOS">
+</div>
+<div class = "partifigure">
+  <h3 style = "color : green" > <center>   VI) Figure de l'Architecture Orientèe Service. <center> </h3> <br>
+    <div class = "image1">
+   <img src="dessiin3.jpg" alt="nvxfigure" width="600" height="400" >
+ </div>
+</div>
+<hr>
+ <A NAME="C">
+<h3 style = "color : green" > <center><i> VII) Conclusion. <i><center> </h3> <br>
+  <pre>
+
+           Dans notre projet nous avons parlé des differentes couches des systemes d’informations .
+
+           Puis nous avons presenté la notion de patterns gouvernant le design des systémes .
+
+           Des nouveaux services  ont été introduits pour finaliser la nouvelle Architecture orienté services dans notre diagramme.
+
+
+
+
+
+
+  </pre>
+  <hr>
+   <A NAME="BR">
+  <h3 style = "color : green" > <center><i> Bibliographie et Reference: <i><center> </h3> <br>
+    <pre>
+- SOA design patterns, Thomas. Erl; Upper Saddle River, N.J.  : Montréal : Prentice Hall; 2009.
+
+- SOA : le guide de l'architecte d'un SI agile, Paris : Dunod; 2011.
+
+- SOA : le guide de l'architecte, Paris : Dunod; 2006.
+
+- Service-oriented architecture : concepts, technology, and design, Thomas. Erl; Upper Saddle    River, N.J. ; Toronto 2005.
+
+- Understanding enterprise SOA, Eric. Pulier; Greenwich, Conn. : Manning; 2006.
+
+- les cours de SOA à l'université de Québec à Outaouais présenté par le Professeur Mohamed Taleb.
+
+
+    </pre>
+<hr>
+</body>
+<div>
+  <A NAME="codeword">
+<a href="C:\Users\Ready2Go\Desktop\SOA\Project Proposition d’une Soa mahmoud.pptx" download= Project Proposition d’une Soa mahmoud.pptx><button onclick="myFunction()">Merci de Telecharger :) </button>
+ <a>
+   <script>
+   var x = 0;
+function myFunction() {
+  x++;
+    document.getElementById("count").innerHTML = x ;
+}
+</script>
+<p id = "count">Nbr de telechargement </p>
+</div>
+</html>
